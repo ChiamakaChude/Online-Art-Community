@@ -1,0 +1,706 @@
+/*#nav1ul
+{
+    top: 0px;
+    background-color: white;
+    position: absolute;
+    height: 50px;
+    z-index: 100;
+    padding: 5px;
+}
+
+#nav1ul li
+{
+    margin-right: 18px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#logo
+{
+    margin-left: 1%;
+    height: 100%;
+    z-index: 100;
+}
+
+.navbar
+{
+    background-color:white;
+    position: relative;
+    height: 65px;
+    color: black;
+}
+
+navbar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#nav ul li :hover
+{
+    text-decoration: none;
+    background-color: black;
+    width: 130px;
+    color: white
+}
+
+#nav ul li a
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+#nav ul li
+{
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+}
+
+#search
+{
+    margin-left: -75px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+    border-bottom-right-radius: none;
+}
+
+#search-btn
+{
+    background-color: white;
+    height: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+    border-bottom-left-radius: none;
+}
+*/
+
+body
+{
+    background-color:white;
+   
+    
+}
+
+#fb, #twttr, #gplus, #ig, #pin:hover
+{
+    height: auto;
+}
+
+.navbar
+{
+    background-color:#000066;
+    position: relative;
+    height: 55px;
+    z-index: 100;
+}
+
+.navbar-new-top
+{
+   
+    background-color:steelblue;
+    height: 25px;
+}
+.navbar-toggler
+{
+    top: 0;
+    color: white;
+}
+
+#logo
+{
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+@media only screen and (max-width:800px)
+{
+    #logo
+    {
+        top: 100%;
+        bottom: 100%;
+        height: 35px;
+        float: left;
+        display: block;
+    }
+    .navbar
+    {
+        background-color:#000066;
+        position: relative;
+        height: 35px;
+        z-index: 100;
+    }
+
+    .navbar-new-top
+    {
+
+        background-color:steelblue;
+        height: 20px;
+    }
+}
+#nav1 ul li a, #link
+{
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      width: 100%;
+}
+
+#nav1 ul li a:hover 
+{
+      background-color: #e6b800;
+      color: black;
+      display: block;
+      height: auto;
+      width: auto;
+      cursor: pointer;
+}
+
+
+#nav ul li
+{
+    height: 40px;
+    background-color: #000066;
+}
+
+#nav ul li a, #link
+{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      height: 50px;
+      width: 100%;
+}
+
+#nav1second
+{
+    margin-top: 5px;
+}
+
+/* Change the color of links on hover */
+#nav ul li a:hover 
+{
+      background-color: #e6b800;
+      color: black;
+      display: block;
+      height: 45px;
+      width: 100%;
+      cursor: pointer;
+}
+.badge-notify
+{
+    border-radius: 18px;
+   background:red;
+   position:relative;
+   top: -13px;
+   left: -16px;
+  }
+
+#end
+{
+    padding: 0px;
+}
+
+.tab-content .active 
+{
+      background-color: #b38f00;
+      color: white;
+}
+
+.navbar-nav li a i
+{
+    width: 40px;
+}
+
+.dropdown-menu
+{
+    background-color: #000066;
+}
+
+
+#fb, #twttr, #gplus, #ig, #pin
+{
+    padding: 0px;
+}
+
+@media only screen and (max-width:770px)
+{
+    #nav1ul
+    {
+        visibility: hidden;
+    }
+}
+
+#sign
+{
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media only screen and (max-width:770px)
+{
+    #sign
+    {
+        padding-top: 15px;
+        padding-left: 2px;
+        padding-right: 2px;
+
+    }
+}
+
+#bar
+{
+     padding-top: 12px;
+}
+
+#search
+{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    position: inherit;
+    border: 5px;
+    padding-top: 20px;
+}
+
+input[type=search]
+{
+    width: 80%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;   
+    height: 30px;
+    border: solid 1px gray;
+    float: left;
+}
+
+#search-btn
+{
+    height: 30px;
+    width: 20%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;
+    background-color:#000066;
+    border: 1px solid gray;
+    color: white;
+}
+
+
+/*SIGN UP PAGE*/
+
+#user_type 
+{
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid lightgray 1px;
+    border-radius: 8px;
+    background-color: wihte;
+    width: 20%;
+    text-align: center;
+}
+
+#user_type input
+{
+    height: 45px;
+    width: 110px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#student_form, #staff_form, #other_form
+{
+    text-align: center;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid lightgray 1px;
+    border-radius: 8px;
+    background-color: wihte;
+    width: 40%;
+}
+
+#student_back:hover
+{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+#staff_back:hover
+{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+#other_back:hover
+{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+/*input:invalid
+{
+    border-color: #ff4d4d;
+    box-shadow: 1px 1px 5px #ff4d4d;
+}
+
+input:valid
+{
+    border-color: #66ff66;
+    box-shadow: 1px 1px 5px #66ff66;
+}*/
+
+/*HOME PAGE*/
+
+#create
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    float: right;
+    margin-right: 20px;
+    background-color: #000066;
+    margin-bottom: 50px;
+}
+
+/*PROFILE PAGE*/
+
+#nav3
+{
+    width: 100%;
+    height:50px;
+}
+
+#nav3 ul li
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav3 ul li a
+{
+    height:50px;
+    text-align: center;
+}
+
+#nav3 ul li a:hover 
+{
+    height: 50px;
+    background-color: #e6b800;
+    color: black;
+    display: block;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+
+#clipboard-link, #works-link, #tutorials-link, #likes-link, #topics-link
+{
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      height: 50px;
+      width: 100%;
+}
+
+#profile-pic
+{
+    height: 110px;
+    width: 110px;
+    border-radius: 55px;
+    margin-left: 40px;
+}
+
+#clips
+{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+#work
+{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+#tuts
+{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+}
+
+#likes
+{
+    background-color:crimson;
+    height: 100px;
+    width: 100px;
+}
+
+#topic
+{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+#edit-but
+{
+    margin-top: -110px;
+    float: right;
+}
+
+/*Events Page*/
+
+#event-body
+{
+    background-image: url(images/www.shutterstock.com-search-backdrop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#events
+{
+    float: left;
+    width: 70%;
+}
+
+#tickets
+{
+    float: right;
+    width: 30%;
+}
+
+#event-list
+{
+    width: 96%;
+    cursor: pointer;
+}
+
+#ticket-list
+{
+    width: 100%;
+}
+
+#event_title
+{
+    color: white;
+    background-color: black;
+}
+
+
+/*Gallery Page*/
+
+.gallery 
+{
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    -webkit-column-width: 20%;
+    -moz-column-width: 20%;
+    column-width: 20%;
+}
+
+.gallery img
+{
+    border-radius: 20px;
+}
+
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+
+/*Page Footer*/
+
+#footer-top
+{
+    background-color: #000066;
+    color: white;
+    text-align: center;
+}
+
+#footer-bottom
+{
+    background-color: steelblue;
+    color: black;
+}
+
+#social-link
+{
+    text-align: center;
+}
+
+#mail, #digits
+{
+    text-align: center;
+}
+
+/*SETTINGS PAGE*/
+.sidenav 
+{
+  height: 100%; /* 100% Full-height */
+  width: 230px;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #000066;
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a
+{
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.sidenav ul
+{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40px;
+}
+
+.sidenav ul li
+{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.sidenav ul li a:hover
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #e6b800;
+    color: black;
+}
+
+#second
+{
+    margin-left: 300px;
+    width: 70%;
+}
+
+label
+{
+    color: gray;
+}
+
+
+/*CREATE PAGE*/
+
+#create-form
+{
+    height: 590px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#up-image
+{
+    background-color:lightgray;
+    height: 120%;
+    width: 70%;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#img-text
+{
+    text-align: center;
+}
+
+#prev-image
+{
+    height: auto;
+    width: 70%;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#title
+{
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#title::placeholder
+{
+    font-weight: bold;
+    font-size: 20px;
+}

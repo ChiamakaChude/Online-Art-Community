@@ -1,0 +1,11 @@
+<?php
+    include "../database.php";
+    
+
+    //$display_category=$conn->query("SELECT category_name FROM category")->fetchAll();
+    
+    //foreach($display_category as $row)
+    //{
+    //    echo $row["category_name"];
+    //}
+    ?>

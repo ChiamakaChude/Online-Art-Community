@@ -1,0 +1,30 @@
+<html>
+    <head>
+        
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="../fontawesome-free-5.9.0-web/css/all.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="icon" href="../artplus1edited.png">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Place your stylesheet here-->
+        <link href="art_community.css" rel="stylesheet">
+    </head>
+    <body>
+        <form id="user_type">
+            <h5>Select User Type</h5>
+            <button id="student" class="btn btn-primary" class="form-control">Student</button><br>
+            <button class="btn btn-primary" class="form-control">Staff</button><br>
+            <button class="btn btn-primary"class="form-control">Visitor</button>
+        </form>
+        <script>
+           $(document).ready(function(){ 
+                $("student").click(function(){
+                    $("user_type").hide();
+                });
+                });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,339 @@
+body
+{
+    background-color:  #eaeae1;
+}
+.navbar
+{
+    background-color:midnightblue;
+    height: 7%;
+}
+
+#logo
+{
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width:800px)
+{
+    #logo
+    {
+        top: 100%;
+        bottom: 100%;
+        position: absolute;
+        left: 15%;
+        height: 90%;
+        
+    }
+}
+#left-nav
+{
+    float: right;
+    right: 0;
+}
+
+.navbar ul li
+{
+    height: 45px;
+}
+
+.navbar button i
+{
+    color: white;
+}
+
+#sign
+{
+    float: right;
+    right: 0;
+}
+
+.navbar ul li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 100%;
+  z-index: 100;
+}
+
+/* Change the color of links on hover */
+.navbar ul li a:hover 
+{
+  background-color: gainsboro;
+  color: black;
+  display: block;
+  height: 100%;
+}
+
+.nav-item .active 
+{
+  background-color: mediumpurple;
+  color: white;
+}
+
+.sidenav 
+{
+  height: 100%; /* 100% Full-height */
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: midnightblue;
+  overflow:scroll; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a
+{
+    float: left;
+    left: 0;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.sidenav ul
+{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.sidenav .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 25px;
+  margin-left: 50px;
+  float: left;
+}
+
+#open
+{
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+#open
+{
+    cursor: pointer;
+    color: white;
+}
+
+.sidenav ul li:hover
+{
+    display: block;
+    width: 240px;
+}
+
+.has-search
+{
+    width: 50%;
+    margin-left: 20%;
+}
+
+#search
+{
+    border: 1px solid black;
+    height: 30px;
+    width: 90%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 30px;
+}
+
+#search-btn
+{
+    border: none;
+    height: 30px;
+    width: 10%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:black;
+}
+#page-container
+{
+   width: 90%; 
+   background-color: white;
+   margin-top: 35px;
+   border-radius: 10px;
+   transition: 0.5s;
+}
+
+@media only screen and (max-width:1150px)
+    {
+        #page-container
+        {
+           width: 90%; 
+        }
+    }
+@media only screen and (max-width:900px)
+    {
+        #page-container
+        {
+           width:100%; 
+        }
+    }
+@media only screen and (max-width:750px)
+    {
+        #page-container
+        {
+           width: 100%; 
+        }
+    }
+@media only screen and (max-width:600px)
+    {
+        #page-container
+        {
+           width: 100%; 
+        }
+    }
+@media only screen and (max-width:500px)
+    {
+        #page-container
+        {
+           width: 100%; 
+        }
+    }
+@media only screen and (max-width:400px)
+    {
+        #page-container
+        {
+           width: 100%; 
+        }
+    }
+@media only screen and (max-width:300px)
+    {
+        #page-container
+        {
+           width: 100%; 
+        }
+    }
+
+#dashcard
+{
+    color: black;
+    height: 140px;
+    width: 270px;
+}
+
+#dashcard:hover
+{
+    text-decoration: none;
+}
+#totalp:hover
+{
+    box-shadow: 1px 1px 1.5px 1.5px darkviolet;
+}
+#totalo:hover
+{
+    box-shadow: 1px 1px 1.5px 1.5px deeppink;
+}
+#profit:hover
+{
+    box-shadow: 1px 1px 2.5px 3px deepskyblue;
+}
+#totalu:hover
+{
+    box-shadow: 1px 1px 1.5px 1.5px yellow;
+}
+
+#dashdet
+{
+    height: 400px;
+}
+
+#dashicons
+{
+    text-align: right;
+    margin-top: 60px;
+}
+
+#recent
+{
+    width: 380px;
+    height: 350px;
+}
+#page-contain
+{
+    background-color: white;
+    float: left;
+    width: 70%;
+    margin: 20px;
+    border-radius: 10px;
+}
+#side-contain
+{
+    background-color: lightgray;
+    float: right;
+    width: 25%;
+    margin: 10px;
+    margin-top: 19px;
+    border-radius: 10px;
+}
+
+#showprod:hover
+{
+    background-color: aliceblue;
+}
+#update
+{
+    background-color: white;
+    float: left;
+    width: 70%;
+    margin: 20px;
+    border-radius: 5px;
+}
+#change:hover
+{
+    cursor: pointer;
+}
+#image
+{
+    background-color: white;
+    float: right;
+    width: 25%;
+    margin: 10px;
+    margin-top: 19px;
+    border-radius: 5px;
+}
+#image img
+{
+    width: 100%;
+}
+.table
+{
+    font-size: 14px;
+}
+.fa-caret-down, .fa-caret-up
+{
+    color: dodgerblue;
+}
+.dropdown-submenu 
+{
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu 
+{
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+#order-list:hover
+{
+    cursor: pointer;
+    border-color: red;
+}
